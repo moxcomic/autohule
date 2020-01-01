@@ -19,8 +19,8 @@
         if (action.hasOwnProperty("md5")) {
             setTimeout(() => {
                 view.DesktopMgr.Inst.setAutoHule(true);
-				view.DesktopMgr.Inst.setAutoMoQie(true);
-				view.DesktopMgr.Inst.setAutoNoFulu(true);
+				//view.DesktopMgr.Inst.setAutoMoQie(true);
+				//view.DesktopMgr.Inst.setAutoNoFulu(true);
                 uiscript.UIMgr.Inst._ui_desktop.refreshFuncBtnShow(uiscript.UIMgr.Inst._ui_desktop._container_fun.getChildByName("btn_autohu"), 1);
             }, 2000)
         }
